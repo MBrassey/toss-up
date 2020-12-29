@@ -1,2 +1,3 @@
-# toss-up
-Decentralized betting app using chainlink randomness &amp; react front end. 
+## toss-up
+
+Decentralized betting Dapp using Chainlink randomness & React frontend. 

@@ -1,38 +1,78 @@
-.App {
-  text-align: center;
+main {
+  margin: 0 auto;
+  max-width: 90%;
+  padding: 50px 30px;
+}
+:root {
+  --primary: #111d2f;
+  --secondary: #58a6ff;
+  --tertiary: #2d93ca;
+  --light: #c9d1d9;
+  --dark: #5c646c;
+  --darker: #090d12;
+  --alpha: #0d1117;
+  --spacing-one: calc(1rem * 0.5);
+  --spacing-two: calc(1rem);
+  --spacing-five: calc(2.5rem);
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+* {
+  box-sizing: border-box;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+body {
+  cursor: url(https://raw.githubusercontent.com/MBrassey/MediaStore/main/Images/cursor-auto.png),
+  auto;
+  background: var(--alpha);
+  color: var(--dark);
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+a {
+  cursor: url(https://raw.githubusercontent.com/MBrassey/MediaStore/main/Images/cursor-hand.png),
+  auto;
 }
 
-.App-link {
-  color: #61dafb;
+.navbar {
+  color: var(--light);
+  background-color: var(--primary);
+  box-shadow: 0 12px 24px 0 rgba(0, 0, 0, 0.7);
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.navbar-brand {
+  font-family: "Orbitron", sans-serif;
+  color: var(--secondary);
+}
+
+.high {
+  background-color: var(--light);
+}
+
+.low {
+  background-color: var(--dark);
+}
+
+.card {
+  font-family: "Aldrich", sans-serif;
+  transition: all 0.5s ease-in-out;
+  background-color: var(--primary);
+  box-shadow: 0 12px 24px 0 rgba(0, 0, 0, 0.7);
+}
+
+.card2 {
+  font-family: "Aldrich", sans-serif;
+  transition: all 0.5s ease-in-out;
+  background-color: var(--dark);
+  box-shadow: 0 12px 24px 0 rgba(0, 0, 0, 0.7);
+}
+
+.text-light {
+  color: var(--light);
+}
+
+.font-left {
+  color: var(--secondary);
+}
+
+.eth {
+  color: var(--dark);
 }

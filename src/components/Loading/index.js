@@ -13,20 +13,14 @@ class Loading extends Component {
         <div className="col-sm">
           <main
             role="main"
-            className="col-lg-12 text-monospace text-center text-white"
+            className="col-lg-12 text-monospace text-center text-light"
           >
             <div className="content mr-auto ml-auto">
               <div id="content" className="mt-3">
-                <div className="card mb-4 bg-dark border-danger">
+                <div className="card card-2 mb-4 bg-dark">
                   <div className="card-body">
                     <div>
-                      <a
-                        href="https://brassey.io/"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                      >
                         <img src={dice_rolling} width="225" alt="logo" />
-                      </a>
                     </div>
                     &nbsp;
                     <p></p>
@@ -71,7 +65,7 @@ class Loading extends Component {
                     ) : (
                       <div className="float-right" style={{ width: "220px" }}>
                         <div className="float-left" style={{ height: "17px" }}>
-                          <b>MaxBet&nbsp;</b>
+                          <b>MaxBet: </b>
                         </div>
                         <div className="float-right" style={{ height: "17px" }}>
                           {Number(
@@ -79,11 +73,11 @@ class Loading extends Component {
                               this.props.maxBet.toString()
                             )
                           ).toFixed(5)}{" "}
-                          <b>ETH&nbsp;</b>
+                          <b>ETH </b>
                         </div>
                         <br></br>
                         <div className="float-left" style={{ height: "17px" }}>
-                          <b>MinBet</b>($1)&nbsp;
+                          <b>MinBet: </b>
                         </div>
                         <div className="float-right" style={{ height: "17px" }}>
                           {Number(
@@ -91,11 +85,11 @@ class Loading extends Component {
                               this.props.minBet.toString()
                             )
                           ).toFixed(5)}{" "}
-                          <b>ETH&nbsp;</b>
+                          <b>ETH </b>
                         </div>
                         <br></br>
                         <div className="float-left">
-                          <b>Balance&nbsp;</b>
+                          <b>Balance: </b>
                         </div>
                         <div className="float-right">
                           {Number(
@@ -103,7 +97,7 @@ class Loading extends Component {
                               this.props.balance.toString()
                             )
                           ).toFixed(5)}{" "}
-                          <b>ETH&nbsp;</b>
+                          <b>ETH </b>
                         </div>
                       </div>
                     )}

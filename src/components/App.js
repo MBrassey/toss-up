@@ -1,10 +1,11 @@
-import React, { Component } from 'react';
-import ParticlesBg from "particles-bg";
+import React, { Component } from 'react'
+import ParticlesBg from 'particles-bg'
+import Popup from 'react-popup'
 import Loading from './Loading'
 import Navbar from './Navbar'
 import Main from './Main'
 import Web3 from 'web3'
-import './App.css';
+import './App.css'
 
 class App extends Component {
   
@@ -86,9 +87,11 @@ class App extends Component {
         this.state.contract.events.Result({}, async (error, event) => {
           const verdict = event.returnValues.winAmount
           if(verdict === '0') {
-            window.alert('lose :(')
+
+            Popup.alert('You Lost!');
           } else {
-            window.alert('WIN!')
+
+            Popup.alert('You Won!');
           }
 
           // Prevent error when user logout, while waiting for the verdict
@@ -162,6 +165,7 @@ class App extends Component {
                   web3={this.state.web3}
                 />
         }
+        <Popup />
       </div>
     );
   }

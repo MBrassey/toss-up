@@ -33,7 +33,7 @@ Decentralized betting platform using Chainlink randomness & React frontend. The 
 > [<img src="./src/assets/Screenshot.png">](https://brassey.io/)
 
 > Bet
-> [<img src="./src/assets/Bet2.gif">](https://brassey.io/)
+> [<img src="./src/assets/Bet.gif">](https://brassey.io/)
 
 > Testing with Jest
 > [<img src="./src/assets/Test.gif">](https://wakatime.com/@532855a8-3081-4600-a53d-4262beb65d14/projects/gleqrtvsjb?start=2020-12-21&end=2020-12-27)

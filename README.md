@@ -10,7 +10,8 @@ Decentralized betting platform using Chainlink randomness & React frontend. The 
 - [x] [Deploy Smartcontract to Rinkeby Test Network ](https://github.com/MBrassey/toss-up/issues/2)
 - [x] [React/Web3 Components](https://github.com/MBrassey/toss-up/issues/3)
 - [x] [Stylize & Test](https://github.com/MBrassey/toss-up/issues/4)
-- [x] [Create Readme & Deploy to IPFS](https://github.com/MBrassey/toss-up/issues/5)
+- [x] [Make Readme & Test with Jest](https://github.com/MBrassey/toss-up/issues/5)
+- [x] [WalletConnect/Metamask & Deploy to IPFS](https://github.com/MBrassey/toss-up/issues/6)
 
 #### Table of Contents
 

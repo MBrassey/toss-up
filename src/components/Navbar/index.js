@@ -31,7 +31,7 @@ class Navbar extends Component {
               rel="noopener noreferrer"
             >
               {this.props.account}
-            </a>
+            </a>{" "}
             &nbsp;
           </li>
         )}

@@ -33,6 +33,7 @@ a {
 }
 
 a:hover {
+  transition: all 0.5s ease-in-out;
   cursor: url(https://raw.githubusercontent.com/MBrassey/MediaStore/main/Images/cursor-hand.png),
   auto;
 }
@@ -96,6 +97,11 @@ a:hover {
   padding-left: 20px;
 }
 
+.form-control {
+  cursor: url(https://raw.githubusercontent.com/MBrassey/MediaStore/main/Images/cursor-hand.png),
+  auto;
+}
+
 .mm-popup {
   display: none;
 }
@@ -122,8 +128,6 @@ a:hover {
   padding: 0;
   width: 20px;
   height: 20px;
-  cursor: url(https://raw.githubusercontent.com/MBrassey/MediaStore/main/Images/cursor-hand.png),
-  auto;
   outline: none;
   text-align: center;
   border-radius: 10px;

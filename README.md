@@ -37,7 +37,8 @@ The betting system is based on a 50% chance equation where a random hash is gene
 uint256 (uint is an alias) is a unsigned integer which has:
 
     minimum value of 0
-    maximum value of 2^256-1 = 115792089237316195423570985008687907853269984665640564039457584007913129639935 //78 decimal digits
+    maximum value of 2^256-1 = 115792089237316195423570985008687907853269984665640564
+    039457584007913129639935 //78 decimal digits
 
 #### IPFS
 
@@ -49,7 +50,7 @@ Chainlink is being used to provide randomness, and thus, fairness to the betting
 
 The following functions are used to obtain randomness from the Chainlink network:
 
-Request for randomness
+###### Request for randomness
 
     function getRandomNumber(uint256 userProvidedSeed)
         internal
@@ -62,7 +63,7 @@ Request for randomness
         return requestRandomness(keyHash, fee, userProvidedSeed);
     }
 
-Callback function used by VRF Coordinator
+###### Callback function used by VRF Coordinator
 
     function fulfillRandomness(bytes32 requestId, uint256 randomness)
         internal

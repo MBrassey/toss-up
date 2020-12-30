@@ -9,7 +9,7 @@ import './App.css'
 
 class App extends Component {
   
-  async componentWillMount() {
+  async UNSAFE_componentWillMount() {
     await this.loadWeb3()
   }
 

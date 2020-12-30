@@ -1,5 +1,5 @@
 ## toss-up
-Decentralized betting app using Chainlink randomness & React frontend. The betting system is a decentralized smartcontract deployed to the Ethereum test network (Rikeby) for immutability. Application assets are stored on the Interplanetary FileSystem (IPFS) for censorship resistance. Chainlink is being used as an oricle to generate randomness and determine ETH price at the time of transaction.
+Decentralized betting platform using Chainlink randomness & React frontend. The betting system is a decentralized smartcontract deployed to the Ethereum test network (Rikeby) for transparency & immutability. Application assets are stored on the Interplanetary FileSystem (IPFS) for censorship resistance. Chainlink is being used by the contract as an oricle to generate randomness and determine ETH price at the time of transaction.
 
 [![licensebadge](https://img.shields.io/badge/license-CC0_1.0_Universal-blue)](https://github.com/MBrassey/toss-up/blob/main/LICENSE)
 [![time tracker](https://wakatime.com/badge/github/MBrassey/toss-up.svg?start=2020-12-21&end=2020-12-27)](https://wakatime.com/@532855a8-3081-4600-a53d-4262beb65d14/projects/gleqrtvsjb?start=2020-12-21&end=2020-12-27)

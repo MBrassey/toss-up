@@ -1,3 +1,4 @@
+import dice_logo from "../../assets/dice_logo.png";
 import React, { Component } from "react";
 import dice from "../../assets/eth.png";
 import eth from "../../assets/eth.png";
@@ -22,7 +23,7 @@ class Main extends Component {
                   <div className="card mb-4">
                     <div className="card-body">
                       <div>
-                          <img src={dice} width="225" alt="logo" />
+                        <img src={dice} width="225" alt="logo" />
                       </div>
                       &nbsp;
                       <p></p>
@@ -44,7 +45,7 @@ class Main extends Component {
                       </div>
                       <button
                         type="submit"
-                        className="btn low btn-lg"
+                        className="btn low"
                         onClick={(event) => {
                           event.preventDefault();
                           // Start with digit, digit+dot* or single dot*, end with digit.
@@ -68,7 +69,7 @@ class Main extends Component {
                       &nbsp;&nbsp;&nbsp;
                       <button
                         type="submit"
-                        className="btn high btn-lg"
+                        className="btn high "
                         onClick={(event) => {
                           event.preventDefault();
                           // Start with digit, digit+dot* or single dot*, end with digit.
@@ -98,7 +99,7 @@ class Main extends Component {
                         High
                       </button>
                     </div>
-                    <div>
+                    <div className="numbers">
                       {!this.props.balance ? (
                         <div
                           id="loader"
@@ -106,7 +107,14 @@ class Main extends Component {
                           role="status"
                         ></div>
                       ) : (
-                        <div className="float-right" style={{ width: "220px", padding: "7px", color: "#5c646c" }}>
+                        <div
+                          className="float-right"
+                          style={{
+                            width: "220px",
+                            padding: "7px",
+                            color: "#5c646c",
+                          }}
+                        >
                           <div
                             className="float-left font-left"
                             style={{ height: "17px" }}
@@ -156,6 +164,9 @@ class Main extends Component {
                           </div>
                         </div>
                       )}
+                      <div className="dice2">
+                        <img src={dice_logo} width="80" alt="logo" />
+                      </div>
                     </div>
                   </div>
                 </div>

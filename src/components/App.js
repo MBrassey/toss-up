@@ -87,10 +87,8 @@ class App extends Component {
         this.state.contract.events.Result({}, async (error, event) => {
           const verdict = event.returnValues.winAmount
           if(verdict === '0') {
-
             Popup.alert('You Lost!');
           } else {
-
             Popup.alert('You Won!');
           }
 

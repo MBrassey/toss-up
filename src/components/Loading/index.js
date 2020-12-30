@@ -1,3 +1,4 @@
+import dice_logo from "../../assets/dice_logo.png";
 import dice_rolling from "../../assets/eth.gif";
 import React, { Component } from "react";
 import eth from "../../assets/eth.png";
@@ -42,7 +43,7 @@ class Loading extends Component {
                         </div>
                       </div>
                     </div>
-                    <div>
+                    <div class="numbers">
                       {!this.props.balance ? (
                         <div
                           id="loader"
@@ -103,6 +104,9 @@ class Loading extends Component {
                           </div>
                         </div>
                       )}
+                      <div className="dice2">
+                        <img src={dice_logo} width="80" alt="logo" />
+                      </div>
                     </div>
                   </div>
                 </div>

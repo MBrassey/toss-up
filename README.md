@@ -1,5 +1,5 @@
 ## toss-up
-Decentralized betting platform using Chainlink randomness & React frontend. The betting system is a decentralized Smartcontract deployed to an Ethereum test network (Rikeby) for transparency & immutability. Application assets are stored on the Interplanetary FileSystem (IPFS) for censorship resistance. Chainlink is being used by the contract as an oricle to generate randomness and determine ETH price at the time of transaction.
+Decentralized betting platform using Chainlink randomness & React frontend. The betting system is a decentralized Smartcontract deployed to an Ethereum test network (Rikeby) for transparency & immutability. Application assets are stored on the Interplanetary FileSystem (IPFS) for censorship resistance. Chainlink is being used by the contract as an oricle to generate randomness and determine ETH to USD and Wei to USD price at the time of transaction.
 
 [![licensebadge](https://img.shields.io/badge/license-CC0_1.0_Universal-blue)](https://github.com/MBrassey/toss-up/blob/main/LICENSE)
 [![time tracker](https://wakatime.com/badge/github/MBrassey/toss-up.svg?start=2020-12-21&end=2020-12-27)](https://wakatime.com/@532855a8-3081-4600-a53d-4262beb65d14/projects/gleqrtvsjb?start=2020-12-21&end=2020-12-27)
@@ -23,6 +23,10 @@ Decentralized betting platform using Chainlink randomness & React frontend. The 
 * [Preview](#Preview)
 * [Questions](#Questions)
 * [License](#License)
+
+
+> Application Preview
+> [<img src="./src/assets/Screenshot.png">](https://brassey.io/)
 
 #### Ethereum
 
@@ -77,7 +81,7 @@ The betting system is based on a 50% chance equation where a random hash is gene
 
 #### Chainlink
 
-Chainlink is being used to provide randomness, and thus, fairness to the betting platform. Chainlink nodes are also being used as an oracle or _reliable_ source of information related to the live price of ETH and LINK.
+Chainlink is being used to provide randomness, and thus, fairness to the betting platform. Chainlink nodes are also being used as an oracle or _reliable_ source of information related to the live price of ETH and Wei.
 
 The following functions are used to obtain randomness from the Chainlink network:
 
@@ -147,9 +151,6 @@ The following functions are used to obtain randomness from the Chainlink network
     browse: localhost:3001/
 
 <h6><p align="right">:cyclone: Click the image(s) below to view the live <a id="Preview" href="https://brassey.io/">webapplication</a></p></h6>
-
-> Application Preview
-> [<img src="./src/assets/Screenshot.png">](https://brassey.io/)
 
 > Bet
 > [<img src="./src/assets/Bet.gif">](https://brassey.io/)

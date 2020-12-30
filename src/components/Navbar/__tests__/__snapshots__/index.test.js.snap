@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Navbar component matches snapshot 1`] = `
+<DocumentFragment>
+  <nav
+    class="navbar fixed-top flex-md-nowrap p-0 shadow text-monospace"
+  >
+    <a
+      class="navbar-brand col-sm-3"
+      href="http://brassey.io/"
+      rel="noopener noreferrer"
+      target="_blank"
+    >
+      <img
+        alt="logo"
+        height="32"
+        src="dice_logo.png"
+      />
+       TossUp
+    </a>
+    <div
+      class="spinner-border text-light"
+      id="loader"
+      role="status"
+    />
+  </nav>
+</DocumentFragment>
+`;

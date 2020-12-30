@@ -43,7 +43,7 @@ class Loading extends Component {
                         </div>
                       </div>
                     </div>
-                    <div class="numbers">
+                    <div className="numbers">
                       {!this.props.balance ? (
                         <div
                           id="loader"

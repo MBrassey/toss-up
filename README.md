@@ -1,8 +1,8 @@
 ## toss-up
-Decentralized betting platform using Chainlink randomness & React frontend. The betting system is powered by a Smartcontract deployed to an Ethereum test network (Rikeby) for transparency & immutability. Application assets are stored on the Interplanetary FileSystem (IPFS) for censorship resistance. Chainlink is being used by the contract as an oricle to generate randomness and determine ETH and Wei to USD price at the time of transaction.
+Decentralized betting platform using Chainlink randomness, Ethereum Smartcontract & React frontend. The betting system is powered by a Smartcontract deployed to an Ethereum test network (Rikeby) for transparency & immutability. Application assets are stored on the Interplanetary FileSystem (IPFS) for censorship resistance. Chainlink is being used by the contract as an oricle to generate randomness and determine ETH and Wei to USD price at the time of transaction.
 
 [![licensebadge](https://img.shields.io/badge/license-CC0_1.0_Universal-blue)](https://github.com/MBrassey/toss-up/blob/main/LICENSE)
-[![time tracker](https://wakatime.com/badge/github/MBrassey/toss-up.svg?start=2020-12-24&end=2020-12-31)](https://wakatime.com/@532855a8-3081-4600-a53d-4262beb65d14/projects/mvbemzptww?start=2020-12-24&end=2020-12-31)
+[![time tracker](https://wakatime.com/badge/github/MBrassey/toss-up.svg?start=2020-12-24&end=2021-01-01)](https://wakatime.com/@532855a8-3081-4600-a53d-4262beb65d14/projects/mvbemzptww?start=2020-12-24&end=2021-01-01)
 
 #### Issues
 
@@ -154,7 +154,7 @@ Chainlink is being used to provide randomness, and thus, fairness to the betting
 > [<img src="./src/assets/Bet.gif">](https://brassey.io/)
 
 > Testing with Jest
-> [<img src="./src/assets/Test.gif">](https://wakatime.com/@532855a8-3081-4600-a53d-4262beb65d14/projects/mvbemzptww?start=2020-12-24&end=2020-12-31)
+> [<img src="./src/assets/Test.gif">](https://wakatime.com/@532855a8-3081-4600-a53d-4262beb65d14/projects/mvbemzptww?start=2020-12-24&end=2021-01-01)
 
 #### Questions
 

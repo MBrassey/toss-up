@@ -1,7 +1,7 @@
 {
   "name": "toss-up",
   "version": "0.1.0",
-  "description": "Decentralized betting Dapp using Chainlink randomness & React frontend",
+  "description": "Decentralized betting platform using Chainlink randomness, Ethereum Smartcontract & React frontend",
   "author": "https://github.com/MBrassey",
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.6",
@@ -20,7 +20,7 @@
   "scripts": {
     "start": "BROWSER=none react-scripts start",
     "build": "react-scripts build",
-    "test": "react-scripts test",
+    "test": "react-scripts test --verbose",
     "eject": "react-scripts eject",
     "predeploy": "npm run build"
   },

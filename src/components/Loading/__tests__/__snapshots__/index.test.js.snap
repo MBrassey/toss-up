@@ -1,0 +1,98 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Loading component matches snapshot 1`] = `
+<DocumentFragment>
+  <div>
+    <div
+      style="transition: opacity 400ms, transform 400ms; transform: translateY(20px); opacity: 0;"
+    >
+      <div
+        class="container-fluid mt-5 col-m-4"
+        style="max-width: 550px;"
+      >
+        <div
+          class="col-sm"
+        >
+          <main
+            class="col-lg-12 text-monospace text-center text-light"
+            role="main"
+          >
+            <div
+              class="content mr-auto ml-auto"
+            >
+              <div
+                class="mt-3"
+                id="content"
+              >
+                <div
+                  class="card card-2 mb-4"
+                >
+                  <div
+                    class="card-body"
+                  >
+                    <div>
+                      <img
+                        alt="logo"
+                        src="eth.gif"
+                        width="225"
+                      />
+                    </div>
+                     
+                    <p />
+                    <div
+                      class="input-group mb-4"
+                    >
+                      <input
+                        class="form-control form-control-md"
+                        disabled=""
+                        id="disabledInput"
+                        placeholder="rolling..."
+                        type="text"
+                      />
+                      <div
+                        class="input-group-append"
+                      >
+                        <div
+                          class="input-group-text"
+                        >
+                          <img
+                            alt=""
+                            height="20"
+                            src="eth.png"
+                          />
+                           
+                          <b>
+                            ETH
+                          </b>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    class="numbers"
+                  >
+                    <div
+                      class="spinner-border float-right"
+                      id="loader"
+                      role="status"
+                    />
+                    <div
+                      class="dice2"
+                    >
+                      <img
+                        alt="logo"
+                        src="dice_logo.png"
+                        width="80"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </main>
+        </div>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;

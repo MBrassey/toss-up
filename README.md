@@ -26,7 +26,7 @@ Decentralized betting platform using Chainlink randomness & React frontend. The 
 
 #### Ethereum
 
-The TossUp Smartcontract is deployed live on the Rinkeby testnet: [0x37465edC8d70E4b16033fAe23088b1c703924A80](https://rinkeby.etherscan.io/address/0x37465edc8d70e4b16033fae23088b1c703924a80).
+The TossUp Smartcontract is deployed live on the Rinkeby testnet: [0x37465edC8...](https://rinkeby.etherscan.io/address/0x37465edc8d70e4b16033fae23088b1c703924a80).
 
 #### IPFS
 

@@ -21,7 +21,7 @@ Decentralized betting platform using Chainlink randomness, Ethereum Smartcontrac
 * [Requirements](#Requirements)
 * [Installation](#Installation)
 * [Usage](#Usage)
-* [Preview](#Preview)
+* [Demo](#Demo)
 * [Questions](#Questions)
 * [License](#License)
 
@@ -148,7 +148,7 @@ Chainlink is being used to provide randomness, and thus, fairness to the betting
     npm run test a (optional)
     browse: localhost:3001/
 
-<h6><p align="right">:cyclone: Click the image(s) below to view the live <a id="Preview" href="https://brassey.io/">webapplication</a></p></h6>
+<h6><p align="right">:cyclone: Click the image(s) below to view the live <a id="Demo" href="https://brassey.io/">webapplication</a></p></h6>
 
 > Bet
 > [<img src="./src/assets/Bet.gif">](https://brassey.io/)

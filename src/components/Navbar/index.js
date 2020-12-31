@@ -11,7 +11,7 @@ class Navbar extends Component {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <img src={dice_logo} height="32" alt="logo" />{" "}
+          <img src={dice_logo} height="40" alt="logo" />{" "}
           TossUp
         </a>
         {!this.props.account ? (
@@ -21,7 +21,7 @@ class Navbar extends Component {
             role="status"
           ></div>
         ) : (
-          <li className="nav-item text-nowrap d-none d-sm-none d-sm-block">
+          <li className="nav-item text-nowrap d-sm-block">
             <a
               className="text-light"
               href={

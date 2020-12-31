@@ -13,7 +13,7 @@ exports[`Navbar component matches snapshot 1`] = `
     >
       <img
         alt="logo"
-        height="32"
+        height="40"
         src="dice_logo.png"
       />
        TossUp

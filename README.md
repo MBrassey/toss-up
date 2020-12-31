@@ -27,7 +27,7 @@ Fully decentralized betting platform using Chainlink randomness, Ethereum Smartc
 
 
 > Application Preview
-> [<img src="./src/assets/Screenshot.png">](https://brassey.io/)
+> [<img src="./src/assets/Screenshot.png">](https://delicate-union-0349.on.fleek.co/)
 
 #### Ethereum
 
@@ -76,7 +76,8 @@ The TossUp Smartcontract is deployed live on the Rinkeby Ethereum testnet: [ [0x
 
 #### IPFS
 
-TossUp's application files are hosted on the Interplanetary FileSystem [(IPFS)](https://ipfs.io/). Being deployed this way, the application is hosted with peer to peer functionality in a completely distributed, decentralized way. 
+TossUp's application files are hosted on the Interplanetary FileSystem [(IPFS)](https://ipfs.io/). Being deployed this way, the application is hosted with peer to peer functionality in a completely distributed, decentralized way. TossUp is deployed with and
+utilizes the [fleek platform](https://app.fleek.co/) & CDN for the quickest and most reliable IPFS user experience.
 
 #### Chainlink
 
@@ -148,13 +149,13 @@ Chainlink is being used to provide randomness, and thus, fairness to the betting
     npm run test a (optional)
     browse: localhost:3001/
 
-<h6><p align="right">:cyclone: Click the image(s) below to view the live <a id="Demo" href="https://brassey.io/">webapplication</a></p></h6>
+<h6><p align="right">:cyclone: Click the image(s) below to view the live <a id="Demo" href="https://delicate-union-0349.on.fleek.co/">webapplication</a></p></h6>
 
 > Bet
-> [<img src="./src/assets/Bet.gif">](https://brassey.io/)
+> [<img src="./src/assets/Bet.gif">](https://delicate-union-0349.on.fleek.co/)
 
 > Setup
-> [<img src="./src/assets/Setup.gif">](https://brassey.io/)
+> [<img src="./src/assets/Setup.gif">](https://delicate-union-0349.on.fleek.co/)
 
 > Tests
 > [<img src="./src/assets/Test.gif">](https://wakatime.com/@532855a8-3081-4600-a53d-4262beb65d14/projects/mvbemzptww?start=2020-12-24&end=2021-01-01)

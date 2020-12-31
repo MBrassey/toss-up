@@ -1,5 +1,5 @@
 ## toss-up
-Decentralized betting platform using Chainlink randomness, Ethereum Smartcontracts, Interplanetary FileSystem & React frontend. The betting system is powered by Ethereum Smartcontracts for transparency & immutability. Application assets are stored on the Interplanetary FileSystem (IPFS) for censorship resistance and maximum availability. Chainlink is used by the TossUp Smartcontract as an oricle to generate randomness and determine ETH and Wei to USD price at the time of transaction.
+Fully decentralized betting platform using Chainlink randomness, Ethereum Smartcontracts, Interplanetary FileSystem & React frontend. The betting system is powered by Ethereum Smartcontracts for transparency & immutability. Application assets are stored distributed, on the Interplanetary FileSystem (IPFS) for censorship resistance and maximum availability. The Chainlink Network is used by the TossUp Smartcontract as an oricle to generate randomness and determine ETH and Wei to USD price at the time of transaction.
 
 [![licensebadge](https://img.shields.io/badge/license-CC0_1.0_Universal-blue)](https://github.com/MBrassey/toss-up/blob/main/LICENSE)
 [![time tracker](https://wakatime.com/badge/github/MBrassey/toss-up.svg?start=2020-12-24&end=2021-01-01)](https://wakatime.com/@532855a8-3081-4600-a53d-4262beb65d14/projects/mvbemzptww?start=2020-12-24&end=2021-01-01)
@@ -76,7 +76,7 @@ The TossUp Smartcontract is deployed live on the Rinkeby Ethereum testnet: [ [0x
 
 #### IPFS
 
-    coming soon
+    Rather than using GHpages, Heroku or AWS, TossUp's application files are hosted on the Interplanetary FileSystem [(IPFS)](https://ipfs.io/). Being deployed this way, the application is hosted with peer to peer functionality in a completely distributed, decentralized way. 
 
 #### Chainlink
 

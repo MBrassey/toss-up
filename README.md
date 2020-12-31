@@ -156,7 +156,7 @@ Chainlink is being used to provide randomness, and thus, fairness to the betting
 > Setup
 > [<img src="./src/assets/Setup.gif">](https://brassey.io/)
 
-> Testing with Jest
+> Tests
 > [<img src="./src/assets/Test.gif">](https://wakatime.com/@532855a8-3081-4600-a53d-4262beb65d14/projects/mvbemzptww?start=2020-12-24&end=2021-01-01)
 
 #### Questions

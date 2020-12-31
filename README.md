@@ -76,7 +76,7 @@ The TossUp Smartcontract is deployed live on the Rinkeby Ethereum testnet: [ [0x
 
 #### IPFS
 
-    Rather than using GHpages, Heroku or AWS, TossUp's application files are hosted on the Interplanetary FileSystem [(IPFS)](https://ipfs.io/). Being deployed this way, the application is hosted with peer to peer functionality in a completely distributed, decentralized way. 
+TossUp's application files are hosted on the Interplanetary FileSystem [(IPFS)](https://ipfs.io/). Being deployed this way, the application is hosted with peer to peer functionality in a completely distributed, decentralized way. 
 
 #### Chainlink
 

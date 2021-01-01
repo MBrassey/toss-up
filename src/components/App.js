@@ -21,11 +21,12 @@ class App extends Component {
       walletconnect: {
         package: WalletConnectProvider,
         options: {
-          infuraId: "bfbd6060a611413baa173de524eb907f", // MBrassey
+          rpc: "https://eth-rinkeby.alchemyapi.io/v2/afClZ-OJFla42E2o2BWVpYFFd7Ta0hol", // MBrassey
+          /* infuraId: "db6231b5ef424bd9a61a76670e56086b", // MBrassey */
         },
       },
     };
-
+    
     var web3Modal = new Web3Modal({
       cacheProvider: true, // optional
       providerOptions, // required

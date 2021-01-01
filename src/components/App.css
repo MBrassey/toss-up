@@ -35,12 +35,16 @@ a {
 a:hover {
   transition: all 0.5s ease-in-out;
   cursor: url(https://raw.githubusercontent.com/MBrassey/MediaStore/main/Images/cursor-hand.png),
-  auto;
+    auto;
 }
 
-.btn {
+.hand {
   cursor: url(https://raw.githubusercontent.com/MBrassey/MediaStore/main/Images/cursor-hand.png),
-  auto;
+    auto;
+}
+
+.navbar-nav {
+  float: left;
 }
 
 .navbar {
@@ -59,13 +63,13 @@ a:hover {
 .high {
   background-color: var(--light);
   cursor: url(https://raw.githubusercontent.com/MBrassey/MediaStore/main/Images/cursor-hand.png),
-  auto;
+    auto;
 }
 
 .low {
   background-color: var(--dark);
   cursor: url(https://raw.githubusercontent.com/MBrassey/MediaStore/main/Images/cursor-hand.png),
-  auto;
+    auto;
 }
 
 .card {
@@ -101,21 +105,36 @@ a:hover {
 .dice2 {
   float: left;
   padding-left: 20px;
+  padding-top: 3px;
+}
+
+.spinner-border {
+  margin-right: 16px;
+}
+
+.fix {
+  margin-right: 12px;
+  margin-bottom: 50px;
 }
 
 .form-control {
   cursor: url(https://raw.githubusercontent.com/MBrassey/MediaStore/main/Images/cursor-hand.png),
-  auto;
+    auto;
 }
 
 button {
   cursor: url(https://raw.githubusercontent.com/MBrassey/MediaStore/main/Images/cursor-hand.png),
-  auto;
+    auto;
 }
 
 button:hover {
   cursor: url(https://raw.githubusercontent.com/MBrassey/MediaStore/main/Images/cursor-hand.png),
-  auto;
+    auto;
+}
+
+.address:hover {
+  transition: all 0.5s ease-in-out;
+  text-decoration: none;
 }
 
 .mm-popup {
@@ -188,7 +207,7 @@ button:hover {
   outline: none;
   text-decoration: none;
   cursor: url(https://raw.githubusercontent.com/MBrassey/MediaStore/main/Images/cursor-hand.png),
-  auto;
+    auto;
   font-family: "Orbitron", sans-serif;
   font-weight: bold;
 }
@@ -285,7 +304,7 @@ button:hover {
   width: 20px;
   height: 20px;
   cursor: url(https://raw.githubusercontent.com/MBrassey/MediaStore/main/Images/cursor-hand.png),
-  auto;
+    auto;
   outline: none;
   text-align: center;
   border-radius: 10px;
@@ -301,18 +320,22 @@ button:hover {
   padding: 20px;
 }
 
-@media (max-width: 465px) {
-.dice2 {
-  visibility: hidden;
-  width: 0%;
-  height: 0%;
+@media (max-width: 748px) {
+  .address {
+    display: none;
+  }
 }
+
+@media (max-width: 465px) {
+  .dice2 {
+    visibility: hidden;
+    width: 0%;
+    height: 0%;
+  }
 }
 
 @media (max-width: 420px) {
   .card {
     width: 100%;
   }
-
 }
-

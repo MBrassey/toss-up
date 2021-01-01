@@ -3,6 +3,7 @@ import React, { Component } from "react";
 import dice from "../../assets/eth.png";
 import eth from "../../assets/eth.png";
 import FadeIn from "react-fade-in";
+import Popup from "react-popup";
 import "../App.css";
 
 class Main extends Component {
@@ -45,7 +46,7 @@ class Main extends Component {
                       </div>
                       <button
                         type="submit"
-                        className="btn low"
+                        className="btn low btn-sm"
                         onClick={(event) => {
                           event.preventDefault();
                           // Start with digit, digit+dot* or single dot*, end with digit.
@@ -58,7 +59,7 @@ class Main extends Component {
                               this.props.web3.utils.toWei(amount)
                             );
                           } else {
-                            window.alert(
+                            Popup.alert(
                               "Please type positive interger or float numbers"
                             );
                           }
@@ -69,7 +70,7 @@ class Main extends Component {
                       &nbsp;&nbsp;&nbsp;
                       <button
                         type="submit"
-                        className="btn high "
+                        className="btn high btn-sm"
                         onClick={(event) => {
                           event.preventDefault();
                           // Start with digit, digit+dot* or single dot*, end with digit.
@@ -90,7 +91,7 @@ class Main extends Component {
                               this.props.web3.utils.toWei(amount)
                             );
                           } else {
-                            window.alert(
+                            Popup.alert(
                               "Please make sure that:\n*You typed positive interger or float number\n* Typed value is >= than MinBet (not all ETH decimals visible)\n* You are using Rinkeby network"
                             );
                           }
@@ -103,7 +104,7 @@ class Main extends Component {
                       {!this.props.balance ? (
                         <div
                           id="loader"
-                          className="spinner-border float-right"
+                          className="spinner-border fix float-right"
                           role="status"
                         ></div>
                       ) : (

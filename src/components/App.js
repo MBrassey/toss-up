@@ -34,7 +34,7 @@ class App extends Component {
 
     this.setState({ web3Modal: web3Modal });
 
-    //Settings for only MetaMask
+    // Settings for only MetaMask
     if (typeof window.ethereum !== "undefined") {
       let network, balance, web3;
 
@@ -42,7 +42,7 @@ class App extends Component {
       web3 = new Web3(window.ethereum);
       this.setState({ web3: web3 });
 
-      //Update address&account when MM user change account
+      // Update address & account when MM user change account
       window.ethereum.on("accountsChanged", async (accounts) => {
         if (typeof accounts[0] === "undefined") {
           this.setState({ account: null, balance: null, provider: null });
@@ -415,18 +415,18 @@ class App extends Component {
           network = await getChain(provider.chainId);
           web3 = new Web3(
             new Web3.providers.HttpProvider(
-              `https://${network.network}.infura.io/v3/db6231b5ef424bd9a61a76670e56086b`
+              `https://${network.network}.alchemyapi.io/v2/afClZ-OJFla42E2o2BWVpYFFd7Ta0hol`
             )
           );
           balance = await web3.eth.getBalance(account);
         } else {
-          //handle problem with providing data
+          // Handle problem with providing data
           account = null;
           network = null;
           balance = null;
           web3 = new Web3(
             new Web3.providers.HttpProvider(
-              `https://${network}.infura.io/v3/db6231b5ef424bd9a61a76670e56086b`
+              `https://${network}.alchemyapi.io/v2/afClZ-OJFla42E2o2BWVpYFFd7Ta0hol`
             )
           );
         }
@@ -461,7 +461,7 @@ class App extends Component {
         network = await getChain(provider.chainId);
         web3 = new Web3(
           new Web3.providers.HttpProvider(
-            `https://${network.network}.infura.io/v3/db6231b5ef424bd9a61a76670e56086b`
+            `https://${network.network}.alchemyapi.io/v2/afClZ-OJFla42E2o2BWVpYFFd7Ta0hol`
           )
         );
         balance = await web3.eth.getBalance(account);
@@ -483,7 +483,7 @@ class App extends Component {
         network = await getChain(chainId);
         web3 = new Web3(
           new Web3.providers.HttpProvider(
-            `https://${network.network}.infura.io/v3/db6231b5ef424bd9a61a76670e56086b`
+            `https://${network.network}.alchemyapi.io/v2/afClZ-OJFla42E2o2BWVpYFFd7Ta0hol`
           )
         );
         balance = await web3.eth.getBalance(account);
@@ -519,7 +519,7 @@ class App extends Component {
         await this.state.provider.stop(); // Disconnect Web3Modal+WalletConnnect (QR code remains)
         this.setState({ account: null, balance: null });
 
-        //In case if MetaMask is installed
+        // If MetaMask is installed
         if (window.ethereum) {
           const network = await getChain(parseInt(window.ethereum.chainId, 16));
           this.setState({ network: network.network });
@@ -674,14 +674,6 @@ class App extends Component {
             minBet={this.state.minBet}
             loading={this.state.loading}
             web3={this.state.web3}
-
-            /* wallet connect integration (may not be needed)
-            offQr={this.offQr}
-            account={this.state.account}
-            provider={this.state.provider}
-            network={this.state.network}
-            onlyNetwork={this.state.onlyNetwork}
-            */
           />
         )}
         <Popup />

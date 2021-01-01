@@ -431,7 +431,7 @@ class App extends Component {
           );
         }
       } else {
-        window.alert("Error, provider not recognized");
+        Popup.alert("Error, provider not recognized");
       }
 
       this.setState({
@@ -513,7 +513,7 @@ class App extends Component {
       this.state.provider === null ||
       typeof this.state.provider === "undefined"
     ) {
-      window.alert("Logout on MetaMask"); // Inform to disconnect from MetaMask
+      Popup.alert("Click: MetaMask > Account Options"+"> Connected Sites > Disconnect"); // Inform to disconnect from MetaMask
     } else {
       if (this.state.provider !== null && this.state.provider.wc) {
         await this.state.provider.stop(); // Disconnect Web3Modal+WalletConnnect (QR code remains)
@@ -602,10 +602,10 @@ class App extends Component {
           });
         })
         .on("error", (error) => {
-          window.alert("Error");
+          Popup.alert("Error");
         });
     } else {
-      window.alert("Problem with account or network");
+      Popup.alert("Problem with account or network");
     }
   }
 

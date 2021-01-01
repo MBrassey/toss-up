@@ -21,7 +21,7 @@ class App extends Component {
       walletconnect: {
         package: WalletConnectProvider,
         options: {
-          infuraId: "db6231b5ef424bd9a61a76670e56086b",
+          infuraId: "bfbd6060a611413baa173de524eb907f", // MBrassey
         },
       },
     };
@@ -415,7 +415,7 @@ class App extends Component {
           network = await getChain(provider.chainId);
           web3 = new Web3(
             new Web3.providers.HttpProvider(
-              `https://${network.network}.alchemyapi.io/v2/afClZ-OJFla42E2o2BWVpYFFd7Ta0hol`
+              `https://${network.network}.alchemyapi.io/v2/afClZ-OJFla42E2o2BWVpYFFd7Ta0hol` // MBrassey
             )
           );
           balance = await web3.eth.getBalance(account);
@@ -426,7 +426,7 @@ class App extends Component {
           balance = null;
           web3 = new Web3(
             new Web3.providers.HttpProvider(
-              `https://${network}.alchemyapi.io/v2/afClZ-OJFla42E2o2BWVpYFFd7Ta0hol`
+              `https://${network}.alchemyapi.io/v2/afClZ-OJFla42E2o2BWVpYFFd7Ta0hol` // MBrassey
             )
           );
         }

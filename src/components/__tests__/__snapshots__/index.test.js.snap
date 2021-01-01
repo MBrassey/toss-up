@@ -7,7 +7,7 @@ exports[`App component matches snapshot 1`] = `
       style="width: 100%; height: 100%; position: absolute; z-index: -1; top: 0px; left: 0px;"
     />
     <nav
-      class="navbar fixed-top flex-md-nowrap p-0 shadow text-monospace"
+      class="navbar fixed-top  p-0 shadow text-monospace"
     >
       <a
         class="navbar-brand col-sm-3"
@@ -23,7 +23,29 @@ exports[`App component matches snapshot 1`] = `
          TossUp
       </a>
       <div
-        class="spinner-border text-light"
+        class="hand"
+      >
+        <ul
+          class="navbar-nav"
+        >
+          <div
+            class="row text-center text-monospace"
+          >
+            <button
+              class="btn high btn-sm"
+              style="width: 125px; font-size: 17px;"
+              type="submit"
+            >
+              <b>
+                Connect
+              </b>
+            </button>
+             
+          </div>
+        </ul>
+      </div>
+      <div
+        class="spinner-border"
         id="loader"
         role="status"
       />
@@ -95,14 +117,14 @@ exports[`App component matches snapshot 1`] = `
                         </div>
                       </div>
                       <button
-                        class="btn low"
+                        class="btn low btn-sm"
                         type="submit"
                       >
                         Low
                       </button>
                          
                       <button
-                        class="btn high "
+                        class="btn high btn-sm"
                         type="submit"
                       >
                         High
@@ -112,7 +134,7 @@ exports[`App component matches snapshot 1`] = `
                       class="numbers"
                     >
                       <div
-                        class="spinner-border float-right"
+                        class="spinner-border fix float-right"
                         id="loader"
                         role="status"
                       />

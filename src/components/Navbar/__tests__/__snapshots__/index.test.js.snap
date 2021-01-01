@@ -3,7 +3,7 @@
 exports[`Navbar component matches snapshot 1`] = `
 <DocumentFragment>
   <nav
-    class="navbar fixed-top flex-md-nowrap p-0 shadow text-monospace"
+    class="navbar fixed-top  p-0 shadow text-monospace"
   >
     <a
       class="navbar-brand col-sm-3"
@@ -19,7 +19,29 @@ exports[`Navbar component matches snapshot 1`] = `
        TossUp
     </a>
     <div
-      class="spinner-border text-light"
+      class="hand"
+    >
+      <ul
+        class="navbar-nav"
+      >
+        <div
+          class="row text-center text-monospace"
+        >
+          <button
+            class="btn high btn-sm"
+            style="width: 125px; font-size: 17px;"
+            type="submit"
+          >
+            <b>
+              Connect
+            </b>
+          </button>
+           
+        </div>
+      </ul>
+    </div>
+    <div
+      class="spinner-border"
       id="loader"
       role="status"
     />

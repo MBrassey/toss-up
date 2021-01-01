@@ -27,7 +27,7 @@ Fully decentralized betting platform using Chainlink randomness, Ethereum Smartc
 
 
 > Application Preview
-> [<img src="./src/assets/Screenshot.png">](https://delicate-union-0349.on.fleek.co/)
+> [<img src="./src/assets/Screenshot.png">](https://mbrassey-toss-up.on.fleek.co/)
 
 #### Ethereum
 
@@ -149,13 +149,13 @@ Chainlink is being used to provide randomness, and thus, fairness to the betting
     npm run test a (optional)
     browse: localhost:3001/
 
-<h6><p align="right">:cyclone: Click the image(s) below to view the live <a id="Demo" href="https://delicate-union-0349.on.fleek.co/">webapplication</a></p></h6>
+<h6><p align="right">:cyclone: Click the image(s) below to view the live <a id="Demo" href="https://mbrassey-toss-up.on.fleek.co/">webapplication</a></p></h6>
 
 > Bet
-> [<img src="./src/assets/Bet.gif">](https://delicate-union-0349.on.fleek.co/)
+> [<img src="./src/assets/Bet.gif">](https://mbrassey-toss-up.on.fleek.co/)
 
 > Setup
-> [<img src="./src/assets/Setup.gif">](https://delicate-union-0349.on.fleek.co/)
+> [<img src="./src/assets/Setup.gif">](https://mbrassey-toss-up.on.fleek.co/)
 
 > Tests
 > [<img src="./src/assets/Test.gif">](https://wakatime.com/@532855a8-3081-4600-a53d-4262beb65d14/projects/mvbemzptww?start=2020-12-24&end=2021-01-01)

@@ -46,7 +46,7 @@ class Main extends Component {
                       </div>
                       <button
                         type="submit"
-                        className="btn low btn-sm"
+                        className="btn low"
                         onClick={(event) => {
                           event.preventDefault();
                           // Start with digit, digit+dot* or single dot*, end with digit.
@@ -70,7 +70,7 @@ class Main extends Component {
                       &nbsp;&nbsp;&nbsp;
                       <button
                         type="submit"
-                        className="btn high btn-sm"
+                        className="btn high"
                         onClick={(event) => {
                           event.preventDefault();
                           // Start with digit, digit+dot* or single dot*, end with digit.

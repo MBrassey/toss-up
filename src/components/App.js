@@ -321,7 +321,7 @@ class App extends Component {
           type: "function",
         },
       ];
-      contract_address = "0x37465edC8d70E4b16033fAe23088b1c703924A80"; // TossUp Contract Address (Rinkibe)
+      contract_address = "0x37465edC8d70E4b16033fAe23088b1c703924A80"; // TossUp Contract Address (Rinkeby)
       contract = new web3.eth.Contract(contract_abi, contract_address);
       accounts = await web3.eth.getAccounts();
 

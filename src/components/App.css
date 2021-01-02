@@ -60,6 +60,17 @@ a:hover {
   font-size: 25px;
 }
 
+.btn {
+  cursor: url(https://raw.githubusercontent.com/MBrassey/MediaStore/main/Images/cursor-hand.png),
+  auto;
+  font-family: "Aldrich", sans-serif;
+}
+
+.btn:hover {
+  transition: all 0.5s ease-in-out;
+  background-color: var(--tertiary);
+}
+
 .high {
   background-color: var(--light);
   cursor: url(https://raw.githubusercontent.com/MBrassey/MediaStore/main/Images/cursor-hand.png),
@@ -88,6 +99,7 @@ a:hover {
 
 .text-light {
   color: var(--light);
+  font-size: 18px;
 }
 
 .font-left {
@@ -100,12 +112,18 @@ a:hover {
 
 .numbers {
   width: 97%;
+  height: 98px;
+}
+
+.col-sm-1 {
+  width: 250px;
+  
 }
 
 .dice2 {
   float: left;
   padding-left: 20px;
-  padding-top: 3px;
+  padding-top: 9px;
 }
 
 .spinner-border {
@@ -120,6 +138,10 @@ a:hover {
 .form-control {
   cursor: url(https://raw.githubusercontent.com/MBrassey/MediaStore/main/Images/cursor-hand.png),
     auto;
+}
+
+.connect {
+  padding-right: 28px;
 }
 
 button {
@@ -320,7 +342,7 @@ button:hover {
   padding: 20px;
 }
 
-@media (max-width: 748px) {
+@media (max-width: 826px) {
   .address {
     display: none;
   }

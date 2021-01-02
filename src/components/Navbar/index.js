@@ -6,14 +6,14 @@ class Navbar extends Component {
     return (
       <nav className="navbar fixed-top  p-0 shadow text-monospace">
         <a
-          className="navbar-brand col-sm-3"
+          className="navbar-brand col"
           href="http://brassey.io/"
           target="_blank"
           rel="noopener noreferrer"
         >
           <img src={dice_logo} height="40" alt="logo" /> TossUp
         </a>
-        <div className="hand">
+        <div className="connect">
           {/* Wallet Connection */}
           <ul className="navbar-nav">
             {!this.props.account && !this.props.loading ? (

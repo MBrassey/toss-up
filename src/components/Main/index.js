@@ -24,7 +24,7 @@ class Main extends Component {
                   <div className="card mb-4">
                     <div className="card-body">
                       <div>
-                        <img src={dice} width="225" alt="logo" />
+                        <img src={dice} className="eth-img" alt="logo" />
                       </div>
                       &nbsp;
                       <p></p>

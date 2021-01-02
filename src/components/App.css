@@ -159,6 +159,10 @@ button:hover {
   text-decoration: none;
 }
 
+.eth-img {
+  width: 225px;
+}
+
 .mm-popup {
   display: none;
 }
@@ -344,6 +348,12 @@ button:hover {
 
 @media (max-width: 826px) {
   .address {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 767px) {
+  .address {
     display: none;
   }
 }
@@ -358,6 +368,9 @@ button:hover {
 
 @media (max-width: 420px) {
   .card {
+    width: 100%;
+  }
+  .eth-img {
     width: 100%;
   }
 }

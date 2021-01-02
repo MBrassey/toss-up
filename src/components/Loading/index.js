@@ -23,7 +23,7 @@ class Loading extends Component {
                   <div className="card card-2 mb-4">
                     <div className="card-body">
                       <div>
-                        <img src={dice_rolling} width="225" alt="logo" />
+                        <img src={dice_rolling} className="eth-img" alt="logo" />
                       </div>
                       &nbsp;
                       <p></p>

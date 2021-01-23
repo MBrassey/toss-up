@@ -43,6 +43,10 @@ a:hover {
     auto;
 }
 
+.float-right{
+font-size: 17px;
+}
+
 .navbar-nav {
   float: left;
 }

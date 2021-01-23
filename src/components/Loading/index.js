@@ -70,7 +70,7 @@ class Loading extends Component {
                                 this.props.maxBet.toString()
                               )
                             ).toFixed(5)}{" "}
-                            <b>ETH </b>
+                            <b> </b>
                           </div>
                           <br></br>
                           <div
@@ -81,7 +81,7 @@ class Loading extends Component {
                           </div>
                           <div
                             className="float-right"
-                            style={{ height: "17px" }}
+                            style={{ height: "12px" }}
                           >
                             {Number(
                               this.props.web3.utils.fromWei(
